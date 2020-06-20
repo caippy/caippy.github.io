@@ -1,4 +1,4 @@
-# CAIP Home
+# CAIP
 Welcome to the CAIP Hub. Download CAIP and read the documentation.
 
 ## CAIP 2 Documentation

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CAIP Docs
+title: Documentation
 permalink: /docs
 nav_order: 2
 has_children: true
