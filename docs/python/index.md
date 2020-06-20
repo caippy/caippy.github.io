@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Python CAIP
+permalink: /docs/python
 nav_order: 2
 has_children: true
 ---
