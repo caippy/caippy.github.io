@@ -6,9 +6,9 @@ permalink: docs/python
 nav_order: 2
 has_children: true
 ---
-# Configuration
+# CAIP 2 Documentation
 {: .no_toc }
-CAIP 2.0 Documentation
+Read documentation for Python CAIP.
 {: .fs-6 .fw-300 }
 ## Table of contents
 {: .no_toc .text-delta }
@@ -16,5 +16,5 @@ CAIP 2.0 Documentation
 {:toc}
 ---
 
-## Test
-test
+## CAIP 2 Documentation
+* [CAIP 2.0](https://caippy.github.io/docs/python/2)
