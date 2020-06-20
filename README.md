@@ -1,5 +1,5 @@
 # CAIP Documentation Hub
-testing?
+Welcome to the CAIP Documentation Hub. Serving poorly formatted HTML files since 2018.
 
 ## CAIP 1 Documentation
 * [CAIP 1.1](https://caippy.github.io)
