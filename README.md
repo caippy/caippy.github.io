@@ -1,4 +1,4 @@
-# Documentation Hub
+# Home
 Welcome to the CAIP Documentation Hub. Serving poorly formatted HTML files since 2018.
 
 ## CAIP 2 Documentation
