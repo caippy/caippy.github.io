@@ -9,12 +9,6 @@ has_children: true
 # CAIP 1 Documentation
 {: .no_toc }
 Read documentation for Turing CAIP.
-{: .fs-6 .fw-300 }
-## Table of contents
-{: .no_toc .text-delta }
-1. TOC
-{:toc}
----
 
 ## CAIP 1 Documentation
 * [CAIP 1.2](https://caippy.github.io/docs/turing/1)
