@@ -21,7 +21,7 @@ languages_download: "https://github.com/ChrispyMC/CAIP-Languages"
 The CAIP Constructor is included with your download of CAIP. If you haven't downloaded CAIP yet, click the button below.
 
 <span class="fs-6">
-[Download CAIP + Constructor]({{ page.caip_download }}){: .btn .btn-blue .mr-5 }
+[Download CAIP + Constructor]({{ page.caip_download }}){: .btn .btn-blue .mr-6 }
 [Download Languages]({{ page.languages_download }}){: .btn .btn-purple }
 </span>
 
