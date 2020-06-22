@@ -33,8 +33,8 @@ Click the buttons above to download CAIP and the CAIP Constructor. Languages are
 
 There are two modes available to use in CAIP Constructor.
 
-* The first is command-line interface mode. To start CLI mode, open up a terminal program (Command Prompt, bash, etc.) in the *constructor* folder.
-  On Windows, type `py -3 -m main`.
-  On Linux, type `python3 -m main`.
+* The first is command-line interface mode. To start CLI mode, open up a terminal program (Command Prompt, bash, etc.).
+  * On Windows, go into the `scripts` directory, and type `cc_start`.
+  * On Linux, go into the `constructor` directory, and type `python3 -m main`.
 
-* The second is GUI mode. To start GUI mode, double click the constructor executable file in the *constructor* folder.
+* The second is GUI mode. To start GUI mode, open up a file manager program and double-click the constructor executable file in the `constructor` folder.
