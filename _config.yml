@@ -1,6 +1,6 @@
 #Site settings
 title: CAIP Hub
-description: A configurable program capable of file authentication and program execution.
+description: A configurable program capable of file integrity checks and program execution.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://caippy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
