@@ -20,10 +20,10 @@ heading_anchors: true
 aux_links:
   "CAIP on GitHub":
     - "//github.com/ChrispyMC/CAIP"
-  "CAIP on Itch":
-    - "//cih.itch.io/caip"
   "CAIP Languages on GitHub":
     - "//github.com/ChrispyMC/CAIP-Languages"
+  "CAIP on Itch.io":
+    - "//cih.itch.io/caip"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "CAIP &copy; 2018-2020, Christopher Ying, and the CAIP Developers."
