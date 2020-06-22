@@ -4,8 +4,8 @@ title: CAIP
 permalink: /caip
 nav_order: 2
 has_children: true
-caip_download: https://github.com/ChrispyMC/CAIP
-languages_download: https://github.com/ChrispyMC/CAIP-Languages
+caip_download: "https://github.com/ChrispyMC/CAIP"
+languages_download: "https://github.com/ChrispyMC/CAIP-Languages"
 ---
 {: .no_toc }
 # CAIP
