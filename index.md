@@ -6,4 +6,4 @@ nav_order: 1
 ---
 
 # Welcome to the CAIP Hub
-<img src="assets/images/caip-logo.png" alt="CAIP Logo" class="inline"/>
+![](https://raw.githubusercontent.com/caippy/caippy.github.io/master/assets/images/caip-logo.png)
