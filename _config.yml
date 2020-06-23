@@ -29,6 +29,7 @@ aux_links:
 footer_content: "CAIP &copy; 2018-2020, Christopher Ying, and the CAIP Developers."
 
 # Color scheme currently only supports "dark" or nil (default)
+# Work on custom.scss file.
 color_scheme: "dark"
 
 # Remote Theme
