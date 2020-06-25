@@ -8,66 +8,83 @@ search_exclude: true
 config_file: launch.CAIP12
 ---
 
-<h1>CAIP v1.2 Docs - 2020-06-20</h1>
-<p>Created by <a href="https://github.com/ChrispyMC">Christopher Ying</a>. | <a href="https://cih.itch.io">Itch.io Page</a> | <a href="http://chrispy.us.to">My Website</a> | <a href="http://cgames.us.to">CGames Website</a></p>
+<!-- From Raw -->
 
-<h1>Introduction</h1>
+<font face="verdana" size=8>CAIP v1.2 Docs - 2019-06-20</font>
+<p>Created by <a href="https://github.com/ChrispyMC">Christopher Ying</a>. | <a href="https://cih.itch.io/caip">Itch.io Page</a> | <a href="https://sites.google.com/view/chrispy">My Website</a> | <a href="https://sites.google.com/view/countergames">CGames Website</a></p>
 
-<p>CAIP uses the Turing programming language. It is a Pascal-like interpreted programming language and is mostly used in high schools in Canada.<p>
+<hr>
 
-<p>For more information about Turing, <a href="https://en.wikipedia.org/wiki/Turing_(programming_language)">click here</a>.</p>
+<h2 id="introduction">Introduction</h2>
+
+<p>CAIP uses the Turing programming language. It is a Pascal-like interpreted programming language and was mostly used in high schools in Canada.
+<em>For more information about Turing, <a href="https://en.wikipedia.org/wiki/Turing_(programming_language">click here</a>).</em></p>
 
 <hr>
 
 <p>It is easy to customise CAIP. No programming knowledge is required to customise the program.</p>
 
-<h1>Settings File Layout</h1>
+<h2 id="configuration-file-layout">Configuration File Layout</h2>
 
-<p>The settings file can be customized to your liking. The settings file is called <b>{{ site.config_file }}</b>.</p>
-<p>The settings file is a simple 1 Dimensional array, otherwise known as a "list".</p>
-<p>I recommend using <a href="https://notepad-plus-plus.org/">Notepad++</a> to edit the <b>{{ site.config_file }}</b> file.</p>
-<p><b>DO NOT change any names before the ":=" in the configuration file.</b></p>
+<p>The configuration file can be customized to your liking. This file is named <em>launch.CAIP12</em>.
+It is a simple list, with options separated by a new line.
+I recommend using <a href="https://notepad-plus-plus.org/">Notepad++</a> to edit the configuration file.</p>
 
-<table style="width:30%">
-	<tr>
-		<td>Line Number</td>
-		<td>Name</td>
-		<td>Possible Entries</td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>Program (Name)</td>
-		<td>Anything in a <b>string</b> variable type. Use "_" to denote spaces in your program name.</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>Text (Colour)</td>
-		<td>Any number ID in the colour chart below.</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>Background (Colour)</td>
-		<td>Any number ID in the colour chart below.</td>
-	</tr>
-	<tr>
-		<td>4</td>
-		<td>Execute (File/URI)</td>
-		<td>Local File (With file extension in the entry) or URI (http(s)://, steam://, etc.)</td>
-	</tr>
+<p><strong>DO NOT change any names before the ":=" in the configuration file.</strong></p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Line Number</th>
+			<th>Name</th>
+			<th>Possible Entries</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Program (Name)</td>
+			<td>Anything in a <strong>string</strong> variable type. Use "_" to denote spaces in your custom name.</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Text (Colour)</td>
+			<td>Any number ID in the colour chart below.</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Background (Colour)</td>
+			<td>Any number ID in the colour chart below.</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Execute (File/URI)</td>
+			<td>Local File (With file extension in the entry), or URI (http(s)://, steam://, etc.)</td>
+		</tr>
+	</tbody>
 </table>
-<h1><b>Changing Settings</b></h1>
 
-<h2>1. Changing the program name of CAIP</h2>
+<hr>
 
-<p>To change and customize the name of your program, enter your title in the first line of the <b>{{ site.config_file }}</b> file.</p>
-<p>Anything is allowed as the first line is mostly treated as a <b>string</b> type variable.</p>
-<p>Use "_" (One <i>Underscore</i>) to denote the placement of spaces in your custom name entry.</p>
+<h1 id="configuring-launch-settings">Configuring Launch Settings</h1>
 
-<h2>2. Changing the text and background colours</h2>
+<h2 id="changing-the-program-name-of-caip">Changing the program name of CAIP</h2>
+
+<p>To change and customize the name of your program, enter your title in the first line (program) of the <em>launch.CAIP12</em> file.
+Anything is allowed as the first line is mostly treated as a <strong>string</strong> type variable.
+Use "_" (An underscore) to denote the placement of spaces in your program name entry.</p>
+
+<h2 id="changing-the-text-and-background-colours">Changing the text and background colours</h2>
+
+<p><strong>New in CAIP 1.2</strong></p>
+
+<blockquote>
+	<p>The available colours has been expanded to 16 colours.</p>
+</blockquote>
 
 <table style="width:20%">
 	<tr>
-		<th>Colours</th>
+		<td rowspan="3"><b>Colours</b></td>
 	</tr>
 	<tr>
 		<td>0</td>
@@ -83,25 +100,30 @@ config_file: launch.CAIP12
 	</tr>
 </table>
 
-<p>To change the text colour for CAIP, enter a number corresponding to the colour you want in the second line of the <b>config.CAIP12</b> file.</p>
+<p>To change the text colour for CAIP, enter a number corresponding to the colour you want in the second line of the configuration file.
+To change the background colour for CAIP, enter a number corresponding to the colour you want in the third line of the configuration file.</p>
 
-<p>To change the background colour for CAIP, enter a number corresponding to the colour you want in the third line of the <b>config.CAIP12</b> file.</p>
+<h2 id="changing-the-executed-file-uri">Changing the executed file / URI</h2>
 
-<h2>3. Changing the executed file / launched URL</h2>
+<p><strong>New in CAIP 1.2</strong></p>
 
-<p>To change the file that CAIP will executed, go into the <b>{{ site.config_file }}</b> file.</p>
-<p>The <b>fourth</b> line will determine what CAIP will display in the output window. CAIP can execute a program, multimedia file, or launch a URL.</p>
-<p>It is recommended that you set this line to <b>0</b> if it is a local file, or <b>1</b> if it is a URL.</p>
-<p>CAIP will not work if this line is set incorrectly.<p>
+<blockquote>
+<p>The <code>execType</code> option in previous versions of Turing CAIP has been deprecated, as it is no longer needed to determine the execution type in CAIP.</p>
+</blockquote>
 
-<p>To change what will get executed in CAIP just enter the file name in the fifth line of the <b>{{ site.config_file }}</b>.
-<p>If your file is in a sub-directory, follow the guide below.</p>
+<p>To change what will get executed in CAIP just enter the file name/URI in the <strong>fourth</strong> line of the <strong>launch.CAIP12</strong>.
+If your file is in a sub-directory, follow the guide below.</p>
 
-<p>Let's say you want to launch the <b>docs.html</b> file from the CAIP directory.</p>
+<blockquote>
+	<p>Let's say you want to launch the <em>docs.html</em> file from the CAIP directory.
 
-<p><b>CAIP 1.2</b>/<b>docs</b>/<b>docs.html</b></p>
+	<code>CAIP 1.2/docs/docs.html</code></p>
 
-<p>You would enter in the <b>fourth</b> line of your <b>{{ site.config_file }}</b> file:</p>
-<p>"docs/docs.html"</p>
+	<p>You would enter in the <strong>fourth</strong> line of your <strong>launch.CAIP12</strong> file:
 
-<p>The file would be entered in this format from the origin directory: <b>sub-directory</b>/<b>sub-directory</b>/<b>filename.extension</b></p>
+	<code>"docs/docs.html"</code></p>
+
+	<p>The file would be entered in this format from the origin directory: 
+
+	<code>sub-directory/sub-directory/filename.extension</code></p>
+</blockquote>
